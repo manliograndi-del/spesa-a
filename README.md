@@ -3,7 +3,7 @@
 Le offerte dei supermercati vicino a casa — Torino, zona corso Siracusa — sui
 prodotti che interessano a noi, col prezzo per unità già calcolato.
 
-**Si apre qui:** https://manliograndi-del.github.io/spesa/
+**Si apre qui:** https://manliograndi-del.github.io/spesa-a/
 
 Volantini di Lidl, Eurospin, MD, Bennet, Ipercoop (Nova Coop) e Carrefour Iper.
 I prezzi sono letti a mano dalle pagine dei volantini, uno per uno: le scritte

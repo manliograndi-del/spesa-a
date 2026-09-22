@@ -12,7 +12,7 @@ const memoria = { 'spesa.lista.v1': JSON.stringify(SUA) };
 function apri(dopo) {
   return new Promise(res => {
     const dom = new JSDOM(html, { runScripts: 'dangerously', pretendToBeVisual: true,
-      url: 'https://manliograndi-del.github.io/spesa/', virtualConsole: new VirtualConsole(),
+      url: 'https://manliograndi-del.github.io/spesa-a/', virtualConsole: new VirtualConsole(),
       beforeParse(w) {
         Object.defineProperty(w, 'localStorage', { value: {
           getItem: k => (k in memoria ? memoria[k] : null),

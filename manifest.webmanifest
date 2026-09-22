@@ -1,6 +1,6 @@
 {
   "name": "Spesa",
-  "id": "/spesa/",
+  "id": "/spesa-a/",
   "short_name": "Spesa",
   "description": "Le offerte dei supermercati vicino a casa, sui prodotti che ci interessano.",
   "start_url": "./",

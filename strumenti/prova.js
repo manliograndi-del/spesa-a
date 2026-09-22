@@ -16,7 +16,7 @@ const vc = new VirtualConsole()
 
 const dom = new JSDOM(fs.readFileSync(file, 'utf8'),
   { runScripts: 'dangerously', pretendToBeVisual: true, virtualConsole: vc,
-    url: 'https://manliograndi-del.github.io/spesa/' });
+    url: 'https://manliograndi-del.github.io/spesa-a/' });
 
 setTimeout(() => {
   const d = dom.window.document;

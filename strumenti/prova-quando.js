@@ -29,7 +29,7 @@ const errori = [];
 const finto = process.argv[3];            // «2026-09-07», facoltativo
 const dom = new JSDOM(fs.readFileSync(process.argv[2], 'utf8'), {
   runScripts: 'dangerously', pretendToBeVisual: true,
-  url: 'https://manliograndi-del.github.io/spesa/',
+  url: 'https://manliograndi-del.github.io/spesa-a/',
   beforeParse(w) {
     if (!finto) return;
     const Vero = w.Date;

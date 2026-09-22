@@ -16,7 +16,7 @@ const condivisa = process.argv.includes('--condivisa');
 const errori = [];
 const dom = new JSDOM(fs.readFileSync(file, 'utf8'), {
   runScripts: 'dangerously', pretendToBeVisual: true,
-  url: 'https://manliograndi-del.github.io/spesa/',
+  url: 'https://manliograndi-del.github.io/spesa-a/',
   beforeParse(w) {
     if (condivisa) w.claude = { use: async () => ({ publish: async () => {} }) };
   },

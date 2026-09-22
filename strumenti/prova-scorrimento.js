@@ -13,7 +13,7 @@ const fs = require('fs');
 const { JSDOM, VirtualConsole } = require('jsdom');
 const dom = new JSDOM(fs.readFileSync(process.argv[2], 'utf8'), {
   runScripts: 'dangerously', pretendToBeVisual: true,
-  url: 'https://manliograndi-del.github.io/spesa/',
+  url: 'https://manliograndi-del.github.io/spesa-a/',
   virtualConsole: new VirtualConsole(),
 });
 setTimeout(() => {

@@ -21,7 +21,7 @@ const fs = require('fs');
 const { JSDOM, VirtualConsole } = require('jsdom');
 const file = process.argv[2] || 'out/sito.html';
 const testo = fs.readFileSync(file, 'utf8');
-const SITO = 'https://manliograndi-del.github.io/spesa/';
+const SITO = 'https://manliograndi-del.github.io/spesa-a/';
 const male = [];
 
 function apri(indirizzo, quando) {

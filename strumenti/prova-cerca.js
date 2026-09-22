@@ -19,7 +19,7 @@ const vc = new VirtualConsole().on('jsdomError',
   e => errori.push(String(e.detail || e.message).split('\n')[0]));
 const dom = new JSDOM(fs.readFileSync(file, 'utf8'), {
   runScripts: 'dangerously', pretendToBeVisual: true, virtualConsole: vc,
-  url: 'https://manliograndi-del.github.io/spesa/',
+  url: 'https://manliograndi-del.github.io/spesa-a/',
 });
 
 setTimeout(() => {

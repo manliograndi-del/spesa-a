@@ -8,8 +8,8 @@
    della nostra. Adesso qui sopra non c'è più nessuno.
 
    Alza il numero a ogni rilascio, altrimenti resta in giro la copia vecchia. */
-const PREFISSO = "spesa-";
-const CACHE = PREFISSO + "v47";
+const PREFISSO = "spesa-a-";
+const CACHE = PREFISSO + "v48";
 const FILE = ["./", "./index.html", "./novita.html", "./manifest.webmanifest",
               "./icon-192.png", "./icon-512.png"];
 

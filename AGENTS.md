@@ -38,7 +38,7 @@ le offerte, dalla più conveniente in giù, col prezzo per unità. Chi non trova
 quello che vuole lo accende da un catalogo di 67 voci diviso per reparto.
 
 Pubblicata in due posti, **e vanno aggiornati tutti e due**:
-- il sito, `https://manliograndi-del.github.io/spesa/` — un commit su `main`
+- il sito, `https://manliograndi-del.github.io/spesa-a/` — un commit su `main`
 - l'artifact, il link che ha anche sua moglie — `Artifact` con lo stesso URL
 
 ## Vincoli tecnici — non negoziabili senza chiederglielo

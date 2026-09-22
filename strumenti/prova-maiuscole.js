@@ -20,12 +20,12 @@ const sua = JSON.stringify([
 
 const errori = [];
 const dom = new JSDOM(fs.readFileSync(file, 'utf8'), {
-  runScripts: 'outside-only', url: 'https://manliograndi-del.github.io/spesa/',
+  runScripts: 'outside-only', url: 'https://manliograndi-del.github.io/spesa-a/',
 });
 dom.window.localStorage.setItem('spesa.lista.v1', sua);
 const dom2 = new JSDOM(fs.readFileSync(file, 'utf8'), {
   runScripts: 'dangerously', pretendToBeVisual: true,
-  url: 'https://manliograndi-del.github.io/spesa/',
+  url: 'https://manliograndi-del.github.io/spesa-a/',
   virtualConsole: new VirtualConsole().on('jsdomError', e => errori.push(String(e.detail || e.message).split('\n')[0])),
   beforeParse(w) { w.localStorage.setItem('spesa.lista.v1', sua); },
 });
